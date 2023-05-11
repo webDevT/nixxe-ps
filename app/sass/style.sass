@@ -1,0 +1,101 @@
+@import "vars"
+@import "fonts"
+
+body 
+    font-family: $main-font
+    font-size: 18px
+    color: $black
+.container-fluid 
+    padding-left: 0 
+    padding-right: 0 
+    width: 1200px 
+    max-width: 90vw
+.main-screen 
+    background: $orange
+    padding-top: 417px
+    padding-bottom: 310px
+    margin-bottom: 122px
+    position: relative
+    .container-fluid 
+        display: flex 
+        justify-content: flex-end
+.planet 
+    position: absolute 
+    bottom: -145px
+    left: 0
+.main-screen__content 
+    width: 446px 
+    max-width: 100%
+    margin-right: 94px
+    p 
+        max-width: 100%
+.h1 
+    font-size: 40px 
+    font-weight: 900
+    margin-bottom: 24px
+    span 
+        font-weight: 600
+.h2 
+    font-size: 24px 
+    font-weight: 600
+    text-transform: uppercase
+    margin-bottom: 24px
+.icons-row 
+    display: flex 
+    justify-content: space-between 
+    align-items: center
+    margin-top: 60px
+.header 
+    position: absolute 
+    top: 0 
+    left: 0 
+    width: 100%
+    z-index: 999
+    padding-top: 48px
+    .container-fluid 
+        display: flex 
+        justify-content: space-between 
+        align-items: center
+.menu 
+    ul 
+        list-style: none 
+        display: flex 
+        align-items: center
+        padding: 0 
+        margin: 0
+        li 
+            margin-left: 48px
+            a 
+                color: $black 
+                text-decoration: none 
+                text-transform: uppercase
+                font-size: 16px
+.our-solution
+    padding-bottom: 120px
+    .row 
+        margin-top: 60px
+.solution-item 
+    padding: 40px 35px 57px 35px
+    border: 2px solid #fff
+    img 
+        max-width: 100%
+        display: block 
+        margin-left: auto 
+        margin-right: auto
+    p 
+        margin-top: 57px 
+        margin-bottom: 0
+        font-size: 14px 
+        font-weight: 500
+.solution-item:hover
+    background: rgba(214, 219, 230, 0.5)
+    border: 2px solid #FF7A00
+.h3 
+    font-size: 18px 
+    font-weight: 700
+    margin-bottom: 40px
+
+@import "media"
+
+
+
