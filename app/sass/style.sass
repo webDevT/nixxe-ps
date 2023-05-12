@@ -33,6 +33,7 @@ body
     font-size: 40px 
     font-weight: 900
     margin-bottom: 24px
+    text-transform: uppercase
     span 
         font-weight: 600
 .h2 
@@ -95,6 +96,214 @@ body
     font-weight: 700
     margin-bottom: 40px
 
+//start platform style 
+.platform
+    padding-top: 120px
+    padding-bottom: 60px
+    background: $black
+    .container-fluid 
+        width: 1000px 
+        max-width: 95vw
+.orange 
+    color: $orange
+.platform__list
+    margin-top: 60px
+    display: flex 
+    justify-content: flex-end
+    flex-wrap: wrap
+    position: relative
+    background: url('../img/vector3.svg')
+    background-repeat: no-repeat 
+    background-position: bottom 170px left
+.platform__item:first-child 
+    width: 60%
+    
+    .platform__item-wrapper
+        background: $orange
+        width: 100% 
+        height: 268px
+        display: flex 
+        align-items: center
+        .platform__item-wrapper-text
+            margin-left: 47px
+.platform__item 
+    padding: 12px
+.platform__item:nth-child(2)
+    width: 37.6%
+    
+    .platform__item-wrapper
+        height: 358px
+        background: #D6DBE6
+        padding-bottom: 30px
+        img 
+            margin-bottom: 15px
+        .h3 
+            margin-bottom: 10px
+        
+.platform__item:nth-child(3)
+    width: 37%
+    margin-top: -90px
+    .platform__item-wrapper 
+        background: #D6DBE6
+        height: 378px
+        background: #D6DBE6
+        padding-bottom: 30px
+        img 
+            margin-bottom: 25px
+        .h3 
+            margin-bottom: 15px
+.platform__item:nth-child(4)     
+    width: 37.5%  
+    .platform__item-wrapper
+        background: #D6DBE6
+        width: 95% 
+        height: 338px
+        padding-bottom: 30px
+        img 
+            margin-bottom: 25px
+        .h3
+            margin-bottom: 20px
+.platform__item-wrapper 
+    padding: 40px
+    padding-top: 35px
+    .h3 
+        margin-bottom: 20px
+    p 
+        margin-bottom: 0
+        font-size: 16px
+        font-weight: 500
+        line-height: 1.25
+
+//end platform stye 
+
+//start about us style 
+.about-us
+    background: $black
+    color: #fff
+    padding-top: 60px
+    .container-fluid 
+        border: 3px solid #B4B8C1
+        padding: 40px 
+        padding-bottom: 22px
+        background-image: url('../img/masc.svg')
+        background-repeat: no-repeat 
+        background-position: center right
+        background-size: auto 100%
+        p 
+            font-weight: 500
+            line-height: 1.2
+            width: 854px
+            max-width: 80%
+
+       
+//end about us style
+
+.contact 
+    padding-top: 100px 
+    padding-bottom: 296px
+    background-color: $black
+    background-image: url('../img/vector4.svg')
+    background-repeat: no-repeat
+    background-position: bottom left
+    .container-fluid 
+        width: 800px 
+        max-width: 90vw
+    .h2 
+        color: #fff
+        margin-bottom: 60px
+.input 
+    width: 100% 
+    height: 50px
+    background: #fff
+    outline: none
+    padding-left: 30.77px
+    padding-right: 30.77px
+    font-size: 16px 
+    font-family: $main-font
+    color: $black
+    margin-bottom: 24px
+    border: none 
+.textarea
+    width: 100% 
+    height: 118px
+    background: #fff
+    outline: none
+    padding-left: 30.77px
+    padding-right: 30.77px
+    font-size: 16px 
+    font-family: $main-font
+    color: $black
+    padding-top: 15px
+.textarea::placeholder 
+    color: $black
+.textarea:focus::placeholder 
+    color: transparent
+.input::placeholder 
+    color: $black
+.input:focus::placeholder 
+    color: transparent
+.textarea 
+    width: 100%
+.submit-button 
+    font-size: 16px 
+    font-weight: 500 
+    color: #fff
+    width: 220px 
+    height: 40px 
+    background: $orange 
+    color: #fff
+    border: none 
+    outline: none
+    margin-top: 33px
+.submit-button:hover 
+    color: #fff
+    
+.submit-button:hover 
+    color: #fff
+.footer 
+    padding-top: 40px 
+    padding-bottom: 49px
+    text-align: center
+    font-size: 16px 
+.footer__menu 
+    display: flex 
+    justify-content: center 
+    align-items: center
+    padding-bottom: 29px 
+    border-bottom: 1px solid #1E1E1E
+    margin-bottom: 28px
+    a 
+        color: #353535
+        text-decoration: none
+        margin-left: 8px 
+        padding-right: 8px
+    a:hover
+        color: #353535
+.main-screen-page 
+    background: $orange
+    padding-top: 175px
+    padding-bottom: 76px
+    .icons-row 
+        width: 446px 
+        max-width: 100%
+        margin-top: 30px
+.terms-content 
+    padding-top: 80px 
+    padding-bottom: 150px
+    font-weight: 500
+    .container-fluid 
+        width: 1000px 
+        max-width: 90vw
+    a,
+    a:hover 
+        color: $black 
+        text-decoration: underline
+.term-item
+    display: flex
+    
+    span
+        padding-left: 5px
+        padding-right: 5px
 @import "media"
 
 

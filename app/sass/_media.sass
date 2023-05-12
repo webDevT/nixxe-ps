@@ -37,6 +37,17 @@
 	.main-screen__content 
 		width: 58% 
 		max-width: 58%
+	.platform__item-wrapper
+		padding: 40px 15px
+		img 
+			max-width: 50px
+			max-height: 50px
+		p 
+			font-size: 15px
+	.contact 
+		background-size: 40vw
+		padding-bottom: 20vw
+			
 
 
 /* Small Devices, Tablets */
@@ -111,7 +122,49 @@
 			text-align: center
 	.our-solution 
 		padding-bottom: 0
+	.platform__list 
+		flex-direction: column
+	.platform__list  .platform__item
+		width: 100%
+		height: auto
+		padding-left: 0px 
+		padding-right: 0px
+		.platform__item-wrapper 
+			width: 100%
+			height: auto
+			padding-left: 40px 
+			padding-right: 40px
+			display: flex 
+			flex-direction: row
+			align-items: center
+	.platform__item:nth-child(3) 
+		margin-top: 0
+	.platform__item:first-child .platform__item-wrapper .platform__item-wrapper-text 
+		margin-left: 30px
+	.platform__item .platform__item-wrapper .platform__item-wrapper-text
+		margin-left: 30px
+	.platform 
+		padding-bottom: 60px
+		.container-fluid 
+			max-width: 90vw
+	.about-us .container-fluid p
+		width: 100%
+		max-width: 100%
+	.about-us .container-fluid
+		background-position: bottom right -67vw
+		background-size: 100vw
+	.about-us .container-fluid 
+		padding-left: 25px 
+		padding-right: 20px
+		padding-top: 60px 
+		padding-bottom: 60px
+		p 
+			line-height: 1.5
+	.contact 
+		background-size: 70vw
+
 		
+
 
 
 	
@@ -120,6 +173,51 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
 	/**/
+	.platform__list  .platform__item
+		.platform__item-wrapper 
+			flex-direction: column
+			align-items: flex-start
+			padding-top: 40px 
+			padding-bottom: 40px 
+			padding-left: 30px 
+			padding-right: 30px
+
+	.platform__item:first-child .platform__item-wrapper .platform__item-wrapper-text
+		margin-left: 0
+		img 
+			margin-bottom: 30px
+	.platform__item-wrapper img 
+		margin-bottom: 15px
+	.platform__item .platform__item-wrapper .platform__item-wrapper-text
+		margin-left: 0
+		img 
+			margin-bottom: 30px
+	.platform 
+		padding-top: 20px 
+		padding-bottom: 20px
+	.platform__list 
+		margin-top: 0px
+		padding-top: 78px
+	.platform__list .platform__item
+		margin-bottom: 15px
+	.platform__list 
+		background-position: top 0 right 0
+		background-size: 60px
+	.platform 
+		.h2 
+			transform: translateY(200%)
+	.footer 
+		font-size: 14px
+	.main-screen
+		margin-bottom: 77px
+	.our-solution 
+		padding-top: 40px
+	.terms-content 
+		padding-bottom: 60px
+		font-size: 16px
+	.term-item	
+		span 
+			padding-left: 0
 
 
 /* Custom, iPhone Retina */

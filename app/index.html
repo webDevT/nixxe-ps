@@ -159,10 +159,133 @@ Routing
 </section>
 <!-- end  our solution -->
 
+
+
+<!-- start platform -->
+<section class="platform" id="our-platform">
+	<div class="container-fluid">
+		<h2 class="h2 orange">
+			OUR PLATFORM
+		</h2>
+
+		<div class="platform__list">
+
+			<div class="platform__item">
+				<div class="platform__item-wrapper">
+					<img src="img/icon1.svg" alt="">
+					<div class="platform__item-wrapper-text">
+						<h3 class="h3">
+							Payment <br>
+Solutions
+						</h3>
+						<p>
+							At [Company Name], we're proud to offer a leading-edge payment gateway solution that's designed to meet the needs of modern merchants. Our solution is built on top of the latest technology, making it scalable, responsive, and highly reliable.
+						</p>
+					</div>
+					
+				</div>
+			</div>
+
+			<div class="platform__item">
+				<div class="platform__item-wrapper">
+					<img src="img/icon2.svg" alt="">
+					<div class="platform__item-wrapper-text">
+						<h3 class="h3">
+							Hypersonic <br>
+Gateway
+						</h3>
+						<p>
+							With our payment gateway, you'll be able to seamlessly integrate payment processing into your website or app via our API, making it easy for you to accept payments from your customers.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="platform__item">
+				<div class="platform__item-wrapper">
+					<img src="img/icon3.svg" alt="">
+					<div class="platform__item-wrapper-text">
+						<h3 class="h3">
+							Global <br>
+Reach
+						</h3>
+						<p>
+							We're committed to providing the best payment gateway in the industry, along with top-notch support. Whether you're a small business or a large enterprise, we're here to help you succeed.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="platform__item">
+				<div class="platform__item-wrapper">
+					<img src="img/icon4.svg" alt="">
+					<div class="platform__item-wrapper-text">
+						<h3 class="h3">
+							PCI Certified
+						</h3>
+						<p>
+							Our payment gateway is also PCI certified, meaning it meets the highest standards of security and compliance in the payment processing industry.
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+<!-- end platform -->
+
+<!-- start about-us -->
+<section class="about-us" id="about-us">
+	<div class="container-fluid">
+		<h2 class="h2">OUR VISION</h2>
+		<p>
+			We aim to empower businesses to efficiently run their day-to-day operations and maximise their growth potential by offering a payments platform which manages all channels and directly connects them to a global network of local payment solutions. We strive to offer a comprehensive suite of tools that enable businesses to add new customer payment methods, implement rules and workflows efficiently, communicate with customers in real-time, and monitor the entire system for optimal performance.
+		</p>
+	</div>
+</section>
+<!-- end about us -->
+
+<div class="contact" id="contact-us">
+	<div class="container-fluid">
+		<h2 class="h2">
+			CONTACT US
+		</h2>
+
+		<input type="text" class="input" placeholder="Full name">
+		<input type="text" class="input" placeholder="Email address">
+		<textarea name="" id="" cols="30" rows="10" class="textarea" placeholder="Leave a message"></textarea>
+		<input type="submit" value="SUBMIT" class="submit-button">
+	</div>
+</div>
+
+
+<footer class="footer">
+	<div class="container-fluid">
+		<div class="footer__menu">
+			<a href="terms.html">Terms and Conditions</a>
+			<span>|</span>		
+			<a href="privacy.html">Privacy policy</a>
+		</div>
+
+		<div class="copy">
+			© NIXXE. All rights reserved, 2023
+		</div>
+	</div>
+</footer>
 	<script
 	src="https://code.jquery.com/jquery-3.7.0.min.js"
 	integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
 	crossorigin="anonymous"></script>
+	<script>
+		$(".menu").on("click","a", function (event) {
+    event.preventDefault();
+    var id  = $(this).attr('href'),
+    top = $(id).offset().top;
+    $('body,html').animate({scrollTop: top}, 1500);
+
+});
+	</script>
 	<script src="js/main.js"></script>
 </body>
 </html>
